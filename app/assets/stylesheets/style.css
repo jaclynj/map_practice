@@ -1,0 +1,17 @@
+#map-canvas {
+  height: 400px;
+  width: 960px;
+  border: 1px solid #777;
+  margin: 5px auto;
+}
+
+body {
+  background: #f8f8f8;
+  color: #66c4c4;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#drop-pin {
+  margin: 10px;
+}
