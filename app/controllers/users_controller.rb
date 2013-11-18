@@ -8,7 +8,7 @@ class UsersController < ApplicationController
   end
 
   def new
-    @user = {name: nil, email: nil}
+    @user = {name: nil, email: nil, lat: nil, lng: nil}
     respond_to do |format|
       format.json {render json: @user}
     end
